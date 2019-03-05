@@ -29,6 +29,7 @@ const to = cash.to
 
 * [Java Script](https://www.javascript.com/) - Java Script 
 * [npm](https://www.npmjs.com/) - Node js 
+* [JSDoc](http://usejsdoc.org/)- JSDoc format
 
 
 ## Licence
