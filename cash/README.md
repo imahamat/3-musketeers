@@ -25,17 +25,17 @@ const to = cash.to
 ```
 
 ## Running the tests
-Choose the value of all currencies that you want to get from the API
-Set the value of defaultFrom of currency to convert
+Choose the value of all currencies that you want to get from the API.
+Set the value of defaultFrom of currency that you want to convert.
 ```
 Usage
-		$ cash <amount> <from> <to>
-		$ cash <options>
-	Options
-		--set -s 			Set default currencies
-	Examples
-		$ cash 10 usd eur pln
-		$ cash --set usd aud
+  $ cash <amount> <from> <to>
+  $ cash <options>
+Options
+--set -s  Set default currencies
+Examples	
+  $ cash 10 usd eur pln
+  $ cash --set usd aud
 ```
 
 ## Buitl With 
