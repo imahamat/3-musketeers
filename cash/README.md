@@ -2,7 +2,8 @@
 
 > Get the conversion of the currency set by default
 
-![Currency Converter](img/Currency_ Converter.jpg)
+<img src="img//Currency_ Converter.jpg" width="50" height = "10" >
+
 
 ## Installation
 
