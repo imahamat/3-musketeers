@@ -8,12 +8,18 @@ const currencies = require('../lib/currencies.json');
 
 const {API} = require('./constants');
 
+/**
+ * Get the command function from "./constants"
+ */
 const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
 	const to = command.to.filter(item => item !== from).map(item => item.toUpperCase());
 
 	console.log();
+	/**
+	 * Put in green color all currencies converted
+	 */
 	const loading = ora({
 		text: 'Converting...',
 		color: 'green',
@@ -24,7 +30,10 @@ const cash = async command => {
 	});
 
 	loading.start();
-
+	/**
+	 * Get from API all default currencies
+	 * Conversion of from => amount
+	 */
 	await got(API, {
 		json: true
 	}).then(response => {

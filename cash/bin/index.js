@@ -32,7 +32,7 @@ if (argv.indexOf('--save') !== -1 || argv.indexOf('-s') !== -1) {
 
 const command = {
 	amount: parseFloat(argv[0]) || 1,
-	from: argv[1] || config.get('defaultFrom', 'USD'),
+	from: argv[1] || config.get('defaultFrom', 'GBP'), //USD
 	to: (argv.length > 2) ? process.argv.slice(4) : config.get('defaultTo', DEFAULT_TO_CURRENCIES)
 };
 
