@@ -18,10 +18,22 @@ to install all modules listed as dependencies in package.json.
 
 ```js
 const cash = require('cash')
-
 const amount = cash.amount
 const from = cash.from
 const to = cash.to 
+
+```
+
+## Running the tests
+
+
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
 
 ```
 
